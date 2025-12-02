@@ -1109,7 +1109,6 @@ ArtTile_SStage_Player2                = $07EB
 ; Title screen.
 ArtTile_Title_Buffer                  = $0300
 ArtTile_Title_Misc                    = $0400
-ArtTile_Title_ANDKnuckles             = $04C0
 ArtTile_Title_Banner                  = $0500
 ArtTile_Title_Menu                    = $0680
 ArtTile_SKTitle_SonicKnuxStand        = $00E2
