@@ -1643,14 +1643,12 @@ word_14803C:	dc.w 2
 word_14804A:	dc.w 4
 		dc.b  $F5,   5,   0,   0,   0,   2
 		dc.b    5,   5,   0,   4, $FF, $F2
-		; [FixBugs]: Super Sonic's transformation sprite is off by 2 pixels to the left.
-		dc.b  $E5,  $D,   0,   8, $FF, $E8+2
+		dc.b  $E5,  $D,   0,   8, $FF, $E8
 		dc.b  $F5,   9,   0, $10, $FF, $EA
 word_148064:	dc.w 4
 		dc.b  $F5,   5,   0,   0,   0,   2
 		dc.b    5,   5,   0,   4, $FF, $F2
-		; [FixBugs]: Super Sonic's transformation sprite is off by 2 pixels to the left.
-		dc.b  $E5,  $D,   0,   8, $FF, $E8+2
+		dc.b  $E5,  $D,   0,   8, $FF, $E8
 		dc.b  $F5,   9,   0, $10, $FF, $EA
 word_14807E:	dc.w 4
 		dc.b  $F5,   5,   0,   0,   0,   2
@@ -1674,21 +1672,18 @@ word_1480D4:	dc.w 3
 		dc.b  $ED,  $F,   0,   3, $FF, $ED
 		dc.b   $D,   8,   0, $13, $FF, $ED
 word_1480E8:	dc.w 4
-		; [FixBugs]: The Super Sonic standing sprite's head piece is off by 1 pixel to the left.
-		dc.b  $FC,  $A,   0,   0, $FF, $F7+1
-		dc.b  $E4,  $D,   0,   9, $FF, $E8
-		dc.b  $F4,   8,   0, $11, $FF, $F0
+		dc.b  $FC,  $A,   0,   0, $FF, $F8
+		dc.b  $E4,  $D,   0,   9, $FF, $E9
+		dc.b  $F4,   8,   0, $11, $FF, $F1
 		dc.b  $FC,   0,   0, $14, $FF, $F0
 word_148102:	dc.w 4
-		; [FixBugs]: The Super Sonic standing sprite's head piece is off by 1 pixel to the left.
-		dc.b  $FC,  $A,   0,   0, $FF, $F7+1
-		dc.b  $E4,  $D,   0,   9, $FF, $E8
-		dc.b  $F4,   8,   0, $11, $FF, $F0
+		dc.b  $FC,  $A,   0,   0, $FF, $F8
+		dc.b  $E4,  $D,   0,   9, $FF, $E9
+		dc.b  $F4,   8,   0, $11, $FF, $F1
 		dc.b  $FC,   0,   0, $14, $FF, $F0
 word_14811C:	dc.w 3
-		; [FixBugs]: The Super Sonic standing sprite's head piece is off by 1 pixel to the left.
-		dc.b  $FC,  $A,   0,   0, $FF, $F7+1
-		dc.b  $E4,  $E,   0,   9, $FF, $E8
+		dc.b  $FC,  $A,   0,   0, $FF, $F8
+		dc.b  $E4,  $E,   0,   9, $FF, $E9
 		dc.b  $FC,   0,   0, $15, $FF, $F0
 word_148130:	dc.w 1
 		dc.b  $F0,  $B,   0,   0, $FF, $F4
@@ -1700,12 +1695,10 @@ word_14814C:	dc.w 2
 		dc.b  $E8,  $F,   0,   0, $FF, $F0
 		dc.b    8,   9,   0, $10, $FF, $F0
 word_14815A:	dc.w 3
-		; [FixBugs]: Super Sonic's balancing sprite is off by 2 pixels to the right.
-		dc.b  $E8,  $A,   0,   0, $FF, $F2-2
+		dc.b  $E8,  $A,   0,   0, $FF, $F2
 		dc.b    0,  $C,   0,   9, $FF, $F0
 		dc.b    8,   9,   0,  $D, $FF, $F0
 word_14816E:	dc.w 3
-		; [FixBugs]: Super Sonic's balancing sprite is off by 2 pixels to the right.
-		dc.b  $E8,  $A,   0,   0, $FF, $F2-2
+		dc.b  $E8,  $A,   0,   0, $FF, $F2
 		dc.b    0,  $C,   0,   9, $FF, $F0
 		dc.b    8,   9,   0,  $D, $FF, $F0
