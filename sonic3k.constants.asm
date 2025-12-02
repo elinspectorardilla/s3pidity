@@ -1469,6 +1469,7 @@ mus_Continue			ds.b 1		; $28
 mus_GotThroughAct		ds.b 1		; $29
 mus_ExtraLife			ds.b 1		; $2A
 mus_Emerald			ds.b 1		; $2B
+mus_Super =			*		; $2C
 mus_Invincibility		ds.b 1		; $2C
 mus_CompetitionMenu		ds.b 1		; $2D
 mus_Miniboss			ds.b 1		; $2E
