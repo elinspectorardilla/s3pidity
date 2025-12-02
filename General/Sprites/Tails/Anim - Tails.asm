@@ -43,8 +43,8 @@ AniTails_:
 		dc.w AniTails29-AniTails_
 AniTails00:	dc.b  $FF,   7,   8,   1,   2,   3,   4,   5,   6, $FF
 AniTails01:	dc.b  $FF, $21, $22, $23, $24, $FF, $FF, $FF, $FF, $FF
-AniTails02:	dc.b    1, $96, $97, $98, $FF
-AniTails03:	dc.b    0, $96, $97, $98, $FF
+AniTails02:	dc.b    1, $98, $97, $96, $FF
+AniTails03:	dc.b    0, $98, $97, $96, $FF
 AniTails04:	dc.b  $FD, $A9, $AA, $AB, $AC, $FF, $FF, $FF, $FF, $FF
 AniTails05:	dc.b    7, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AF, $AE, $AD, $AD, $AD
 		dc.b  $AD, $AD, $AD, $AD, $AD, $AF, $AE, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD, $AD
