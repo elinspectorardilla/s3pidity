@@ -1,0 +1,15 @@
+SonLVL INI Files/dllcache
+SonLVL INI Files/SonLVL.log
+SonLVL INI Files/SonPLN.log
+sonic3k.bin
+sonic3k.prev.bin
+sonic3k.log
+sonic3k.lst
+
+# Automatically-generated (D)PCM data.
+Sound/DAC/generated/*.inc
+Sound/DAC/generated/*.dpcm
+Sound/DAC/generated/hashes.lua
+Sound/PCM/generated/*.inc
+Sound/PCM/generated/*.pcm
+Sound/PCM/generated/hashes.lua
