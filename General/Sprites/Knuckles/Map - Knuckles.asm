@@ -811,15 +811,15 @@ word_14B574:	dc.w 4
 		dc.b  $F3,  $B,   0,   8, $FF, $F4
 		dc.b  $13,   8,   0, $14, $FF, $F4
 word_14B58E:	dc.w 1
-		dc.b  $F1,  $F,   0,   0, $FF, $F0
+		dc.b  $F0,  $F,   0,   0, $FF, $F0
 word_14B596:	dc.w 1
-		dc.b  $F1,  $F,   0,   0, $FF, $F0
+		dc.b  $F0,  $F,   0,   0, $FF, $F0
 word_14B59E:	dc.w 1
-		dc.b  $F1,  $F,   0,   0, $FF, $F0
+		dc.b  $F0,  $F,   0,   0, $FF, $F0
 word_14B5A6:	dc.w 1
-		dc.b  $F1,  $F,   0,   0, $FF, $F0
+		dc.b  $F0,  $F,   0,   0, $FF, $F0
 word_14B5AE:	dc.w 1
-		dc.b  $F1,  $F,   0,   0, $FF, $F0
+		dc.b  $F0,  $F,   0,   0, $FF, $F0
 word_14B5B6:	dc.w 2
 		dc.b  $F4,   8,   0,   0, $FF, $F3
 		dc.b  $FC,  $E,   0,   3, $FF, $F3
@@ -1053,11 +1053,11 @@ word_14BA30:	dc.w 2
 		dc.b  $EC,  $B,   0,   0, $FF, $F2
 		dc.b   $C,  $C,   0,  $C, $FF, $F2
 word_14BA3E:	dc.w 2
-		dc.b  $EC,   9,   0,   0, $FF, $F4
-		dc.b  $FC,  $E,   0,   6, $FF, $F4
+		dc.b  $EC,   9,   0,   0, $FF, $F3
+		dc.b  $FC,  $E,   0,   6, $FF, $F3
 word_14BA4C:	dc.w 2
-		dc.b  $EC,   9,   0,   0, $FF, $F4
-		dc.b  $FC,  $E,   0,   6, $FF, $F4
+		dc.b  $EC,   9,   0,   0, $FF, $F3
+		dc.b  $FC,  $E,   0,   6, $FF, $F3
 word_14BA5A:	dc.w 2
 		dc.b  $EC,   9,   0,   0, $FF, $F4
 		dc.b  $FC,  $E,   0,   6, $FF, $F4
