@@ -84,7 +84,7 @@ word_2F332:	dc.w 3
 		dc.b    0,  $D, $A5, $42,   0,   8
 		dc.b  $F6,   6, $85, $34,   0, $24
 word_2F346:	dc.w 3
-		dc.b    0,  $D, $A5, $3A,   0,   0
+		dc.b    0,  $D, $A5, $3A, $FF, $FF
 		dc.b    0,   1, $A6, $CA,   0, $20
 		dc.b  $F6,   6, $85, $34,   0, $24
 word_2F35A:	dc.w 1
