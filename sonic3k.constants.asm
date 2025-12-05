@@ -249,7 +249,7 @@ PSG_input =			$C00011
 ; SRAM addresses
 ; Notes: SRAM in Sonic 3 Alone and Sonic 3 & Knuckles is 1KB in size.
 ; Both games use odd 8-bit addresses for saving.
-	phase $200001
+	phase $300001
 SRAM_start	=		*
 	ds.b	$10	; unused
 SRAM_competition	ds.b $2A*4	; $A8 bytes
