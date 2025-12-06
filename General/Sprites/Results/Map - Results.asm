@@ -133,7 +133,7 @@ word_2F416:	dc.w 5
 		dc.b  $F6,   6, $85, $CC, $FF, $C4
 word_2F436:	dc.w 4
 		dc.b    0,  $D, $E6, $D2,   0,   0
-		dc.b    0,  $D, $E5, $D2,   0, $28
+		dc.b    0,  $D, $E5, $D2,   0, $27
 		dc.b    0,   1, $E6, $CA,   0, $48
 		dc.b  $F6,   6, $85, $CC,   0, $4C
 word_2F450:	dc.w 3
@@ -253,7 +253,7 @@ word_2F682:	dc.w 5
 		dc.b  $F6,   6, $85, $CC, $FF, $C4
 word_2F6A2:	dc.w 4
 		dc.b    0,  $D, $A6, $D2,   0,   0
-		dc.b    0,  $D, $A5, $D2,   0, $28
+		dc.b    0,  $D, $A5, $D2,   0, $27
 		dc.b    0,   1, $26, $CA,   0, $48
 		dc.b  $F6,   6, $85, $CC,   0, $4C
 word_2F6BC:	dc.w 3
@@ -283,7 +283,7 @@ word_2F71A:	dc.w 5
 		dc.b  $F6,   6, $85, $CC, $FF, $C4
 word_2F73A:	dc.w 4
 		dc.b    0,  $D, $86, $D2,   0,   0
-		dc.b    0,  $D, $85, $D2,   0, $28
+		dc.b    0,  $D, $85, $D2,   0, $27
 		dc.b    0,   1,   6, $CA,   0, $48
 		dc.b  $F6,   6, $85, $CC,   0, $4C
 word_2F754:	dc.w 3
