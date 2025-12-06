@@ -28,7 +28,7 @@ PLC_SStageSonic_:
 word_ABE2C:	dc.w 0
 word_ABE2E:	dc.w 2
 		dc.b  $DD,  $F,   0,   0, $FF, $F0
-		dc.b  $FD,   8,   0, $10, $FF, $F2
+		dc.b  $FD,   8,   0, $10, $FF, $F1
 word_ABE3C:	dc.w 2
 		dc.b  $D5,  $F,   0,   0, $FF, $F0
 		dc.b  $F5,   9,   0, $10, $FF, $F1
