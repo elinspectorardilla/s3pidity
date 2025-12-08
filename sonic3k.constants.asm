@@ -993,7 +993,7 @@ H_int_jump :=			*		; S3 uses a different address
 H_int_addr :=			H_int_jump+2		; long
 Checksum_string :=		*		; S3 uses a different address
 				ds.l 1			; set to Ref_Checksum_String once the checksum routine has run
-Ref_Checksum_String := 'SM&K'
+Ref_Checksum_String := 'init'
 
 .check =	(*)&$FFFFFF
 	if (.check>0)&(.check<$FF0000)
